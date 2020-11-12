@@ -16,3 +16,41 @@
 @import "materialize";
 @import "materialize/extras/nouislider";
 @import "https://fonts.googleapis.com/icon?family=Material\Icons";
+
+#logo {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    a {
+        color: rgb(14, 163, 151)
+    }
+  }
+
+#main {
+    #content{
+        float: none;
+    }
+    padding-bottom: 100px;
+    .link {
+        padding: 2cm 1cm;
+        border-bottom: 1px solid red;
+        .title {
+
+            a {
+                color: green;
+            }
+        }
+    }
+    .comments_title {
+        margin-top: 2cm;
+    }
+    #comments {
+        .comment {
+            padding: 1cm 0;
+            border-top: 1px solid orange;
+            .lead{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
