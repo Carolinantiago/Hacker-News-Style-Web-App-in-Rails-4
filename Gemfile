@@ -13,6 +13,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 #gem 'devise', '~> 3.3.0'
 gem 'devise'
 gem 'materialize-sass'
+gem 'acts_as_votable'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
